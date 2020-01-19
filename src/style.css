@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    /* background: red; */
+  }
+
+  main {
+
+    max-width: 800px;
+    margin: 3em auto;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #dddddd8a;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    /* max-width: 50px; */
+    min-height: 50px;
+    background: #ccc;
+    margin: 0.5em;
+    padding: 1em;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .card.hide  span {
+    display: none;  
+  
+  }
+  
